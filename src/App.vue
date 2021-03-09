@@ -1,16 +1,39 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <main>
+    <router-view />
+    <Header />
+    <Top />
+    <Profile />
+    <Works />
+    <PR />
+    <Contact />
+    <Footer />
+  </main>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from '@/components/Header.vue'
+import Top from '@/views/Top.vue'
+import Profile from '@/views/Profile.vue'
+import Works from '@/views/Works.vue'
+import PR from '@/views/PR.vue'
+import Contact from '@/views/Contact.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  components:{
+    Header,
+    Top,
+    Profile,
+    Works,
+    PR,
+    Contact,
+    Footer
+  },
+  data: () => ({
+    name:'myportfolio'
+  }),
 }
 </script>
 
@@ -21,6 +44,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
+
 </style>
