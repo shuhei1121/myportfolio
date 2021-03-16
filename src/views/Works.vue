@@ -31,7 +31,7 @@ export default {
         image: "https://github.com/shuhei1121/myportfolio/blob/master/public/img/portfolio_image.png?raw=true",
         language: "Vue.js",
         text: "ポートフォリオサイト（このサイト）です",
-        link: ""
+        link: "https://shuhei1121.github.io/myportfolio/."
         },
         {
         title: "フリマアプリ",
