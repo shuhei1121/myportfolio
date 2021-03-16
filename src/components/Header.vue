@@ -1,21 +1,18 @@
 <template>
   <header>
     <div class="nav-bar">
-      <router-link v-scroll-to="'#'" to>
+      <a href="#" class="nav-link">
         Top
-      </router-link>
-      <router-link v-scroll-to="'#Profile'" to>
+      </a>
+      <a href="#profile" class="nav-link">
         Profile
-      </router-link>
-      <router-link v-scroll-to="'#Works'" to>
+      </a>
+      <a href="#works" class="nav-link">
         Works
-      </router-link>
-      <router-link v-scroll-to="'#PR'" to>
+      </a>
+      <a href="#pr" class="nav-link">
         PR
-      </router-link>
-      <router-link v-scroll-to="'#Contact'" to>
-        Contact
-      </router-link>
+      </a>
     </div>
   </header>
 </template>
@@ -28,12 +25,20 @@ export default {
 
 <style scoped>
 header{
-  height: 10vh;
+  height: 7vh;
   width: 100%;
 }
 
 .nav-bar{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
+
+.nav-link{
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+
 </style>
