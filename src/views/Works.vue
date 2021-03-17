@@ -21,21 +21,21 @@ export default {
       works: [
         {
         title: "ReportApp",
-        image: "https://github.com/shuhei1121/myportfolio/blob/master/public/img/reportapp_image.png?raw=true",
+        image: "../../img/reportapp_image.png",
         language: "Ruby on Rails",
         text: "報告書を簡単に作成、提出できるアプリです",
         link: 'https://report-app-1121.herokuapp.com/'
         },
         {
         title: "Portfolio Site",
-        image: "https://github.com/shuhei1121/myportfolio/blob/master/public/img/portfolio_image.png?raw=true",
+        image: "../../img/portfolio_image.png",
         language: "Vue.js",
         text: "ポートフォリオサイト（このサイト）です",
-        link: "https://shuhei1121.github.io/myportfolio/."
+        link: ""
         },
         {
         title: "フリマアプリ",
-        image: "https://github.com/shuhei1121/myportfolio/blob/master/public/img/furima_image.png?raw=true",
+        image: "../../img/furima_image.png",
         language: "Ruby on Rails",
         text: "フリマアプリのクローンサイトです",
         link: "https://furima-30311.herokuapp.com/"

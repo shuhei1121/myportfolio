@@ -2,7 +2,7 @@
 <div class="profile-page">
   <h1>Profile</h1>
   <div class="box-wrapper">
-    <img class="profile-img" src="https://github.com/shuhei1121/myportfolio/blob/master/public/img/profile-img.jpg?raw=true" alt="no-image">
+    <img class="profile-img" src="../../img/profile_img.jpg" alt="no-image">
       <table>
         <tbody>
           <tr v-for="(profile, index) in profiles" :key="index">
